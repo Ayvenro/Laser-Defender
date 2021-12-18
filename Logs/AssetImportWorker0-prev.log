@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.2f1 (8fd9074bf66c) revision 9427207'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19041.1348; Version 2004; 64bit' Language: 'en' Physical Memory: 15790 MB
+OS: 'Windows 10 Pro; OS build 19041.1415; Version 2004; 64bit' Language: 'en' Physical Memory: 15790 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ D:/GitHub/Laser Defender
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50276
+50171
 Successfully changed project path to: D:/GitHub/Laser Defender
 D:/GitHub/Laser Defender
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 33.96 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 37.16 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.2f1 (8fd9074bf66c)
 [Subsystems] Discovering subsystems at path D:/Unity/2020.3.2f1/Editor/Data/Resources/UnitySubsystems
@@ -35,886 +35,222 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2020.3.2f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Unity/2020.3.2f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56008
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56284
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2020.3.2f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000923 seconds.
+Registered in 0.001494 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.88 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 45.86 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.773 seconds
+- Completed reload, in  0.800 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000722 seconds.
+Registered in 0.000730 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 36.04 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 38.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.814 seconds
+- Completed reload, in  0.877 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1809 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1810 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 85.1 MB.
 System memory in use after: 85.0 MB.
 
-Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2251.
-Total: 2.437500 ms (FindLiveObjects: 0.198500 ms CreateObjectMapping: 0.044800 ms MarkObjects: 2.074500 ms  DeleteObjects: 0.118100 ms)
+Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2252.
+Total: 2.022100 ms (FindLiveObjects: 0.202000 ms CreateObjectMapping: 0.043000 ms MarkObjects: 1.646800 ms  DeleteObjects: 0.129000 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Space Shooter/PNG/Lasers/laserBlue09.png
-  artifactKey: Guid(816b3ae1306848442a60346caf1e9cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserBlue09.png using Guid(816b3ae1306848442a60346caf1e9cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '295c829b7c5eb942603e7a57ac703a1f') in 0.140328 seconds
-  Import took 0.143272 seconds .
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a5c9508be5b5df3233f4343795b92a') in 0.016601 seconds
+  Import took 0.021391 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserBlue05.png
-  artifactKey: Guid(a67ba2ba684ae2743ab22d7c15d0ddeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserBlue05.png using Guid(a67ba2ba684ae2743ab22d7c15d0ddeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38befaf8360e77f97d393e35a9187bf4') in 0.015925 seconds
-  Import took 0.018808 seconds .
+  Time since last request: 0.000493 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89a5c9508be5b5df3233f4343795b92a') in 0.002130 seconds
+  Import took 0.005088 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserBlue11.png
-  artifactKey: Guid(cd04a818ade2165438eb873602312abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserBlue11.png using Guid(cd04a818ade2165438eb873602312abb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67b9d295610828f976043aa0fa9f6a3') in 0.016603 seconds
-  Import took 0.019516 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserRed11.png
-  artifactKey: Guid(e695e26437eca604bae32ed026271619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserRed11.png using Guid(e695e26437eca604bae32ed026271619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c505de20f63e5986d0c0893476057c94') in 0.019987 seconds
-  Import took 0.023298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserGreen03.png
-  artifactKey: Guid(7ca9fd6c689bf174e87e9dd7e4f97642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserGreen03.png using Guid(7ca9fd6c689bf174e87e9dd7e4f97642) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65caafef9510d53f188a6bb6d0052062') in 0.015911 seconds
-  Import took 0.019025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserRed07.png
-  artifactKey: Guid(6d02561e3794a534bbf8d825ff2d3e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserRed07.png using Guid(6d02561e3794a534bbf8d825ff2d3e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc6e8df2076b487638e77ba7268ead7b') in 0.013628 seconds
-  Import took 0.016487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserGreen10.png
-  artifactKey: Guid(72af523da0bf72a4c99e7acaaf6f615e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserGreen10.png using Guid(72af523da0bf72a4c99e7acaaf6f615e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2506625e43466aeafedd6a165685c083') in 0.015637 seconds
-  Import took 0.018413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserRed09.png
-  artifactKey: Guid(4b10a3615e6771a4cbb3a4ea3cc5828c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserRed09.png using Guid(4b10a3615e6771a4cbb3a4ea3cc5828c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7084bf79b1b0fa419046edda31b06d30') in 0.015034 seconds
-  Import took 0.017921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserGreen12.png
-  artifactKey: Guid(3890322fbfdf6f14783d86a76003a40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserGreen12.png using Guid(3890322fbfdf6f14783d86a76003a40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f71bb343983ffa7891ed9539c2fc41c') in 0.015452 seconds
-  Import took 0.018441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserBlue12.png
-  artifactKey: Guid(c73afa1d37c352b4eb326f95f3ac451e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserBlue12.png using Guid(c73afa1d37c352b4eb326f95f3ac451e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61b44c2737b80f3a479f7a63fd4edabc') in 0.014698 seconds
-  Import took 0.017574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserBlue15.png
-  artifactKey: Guid(7694a029209df0c44a74c4e4b76ed28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserBlue15.png using Guid(7694a029209df0c44a74c4e4b76ed28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b032e6adacfc15196b3ad2f46f15c03b') in 0.015061 seconds
-  Import took 0.018299 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserBlue13.png
-  artifactKey: Guid(2f572141520b32843883d667a4d2fec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserBlue13.png using Guid(2f572141520b32843883d667a4d2fec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd93c143427b25507e0fdc4216bd8af50') in 0.014044 seconds
-  Import took 0.017239 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000202 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserBlue04.png
-  artifactKey: Guid(746a2c126b5f20b45ac258321ab0e8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserBlue04.png using Guid(746a2c126b5f20b45ac258321ab0e8c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b090862be6f52cbe94559b7d62099ca') in 0.014861 seconds
-  Import took 0.018830 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserGreen04.png
-  artifactKey: Guid(6c702be7a18ab0447aebbd53bcb8d33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserGreen04.png using Guid(6c702be7a18ab0447aebbd53bcb8d33a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9d2657d68af0193c976b6d2eb4dbdd0') in 0.013746 seconds
-  Import took 0.016661 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserGreen06.png
-  artifactKey: Guid(68489e42922ef4e4f8d0e945bf95ff22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserGreen06.png using Guid(68489e42922ef4e4f8d0e945bf95ff22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb380fe4b93d74a40ec2bac90df23579') in 0.015469 seconds
-  Import took 0.018256 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserRed14.png
-  artifactKey: Guid(c0b7399b313ef804fafd0cbc7d83d05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserRed14.png using Guid(c0b7399b313ef804fafd0cbc7d83d05d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73f3942d1d1e84269ea5b8206e0a2af') in 0.014471 seconds
-  Import took 0.017254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserGreen16.png
-  artifactKey: Guid(41be57400b772ae4d97d4f76d7cf158e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserGreen16.png using Guid(41be57400b772ae4d97d4f76d7cf158e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc132803f1f5fbd5e9f98060744d0753') in 0.016470 seconds
-  Import took 0.019250 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserBlue14.png
-  artifactKey: Guid(809c2cecdb9087743a5e53feb555a4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserBlue14.png using Guid(809c2cecdb9087743a5e53feb555a4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74204cb5b3ec7df4590223351d34e1c') in 0.014916 seconds
-  Import took 0.018252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserRed06.png
-  artifactKey: Guid(56535ab3963e3fb4085d6c6fa7dbcb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserRed06.png using Guid(56535ab3963e3fb4085d6c6fa7dbcb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31137d4622eeb0849d08ace6bfd0a28a') in 0.014261 seconds
-  Import took 0.016836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserGreen02.png
-  artifactKey: Guid(0f9e6c49594278049b3aae516131e1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserGreen02.png using Guid(0f9e6c49594278049b3aae516131e1cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ddd86549574308b15cb24cdbfa4687') in 0.014118 seconds
-  Import took 0.016964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserGreen13.png
-  artifactKey: Guid(e25f393186c38a84abd0a321008b028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserGreen13.png using Guid(e25f393186c38a84abd0a321008b028c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c69141ea3152e7217b62444a807fec0') in 0.017402 seconds
-  Import took 0.020537 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserGreen01.png
-  artifactKey: Guid(93581f87ca336e04c8d976d548beccb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserGreen01.png using Guid(93581f87ca336e04c8d976d548beccb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51e402ad1319f6ab51406a85e5b99cc4') in 0.015362 seconds
-  Import took 0.017995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000171 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserGreen05.png
-  artifactKey: Guid(c52251cc8f9fde6408f2ad923cc11209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserGreen05.png using Guid(c52251cc8f9fde6408f2ad923cc11209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a00dd2aed67f4eeb2319fae3b9ec3a1') in 0.015976 seconds
-  Import took 0.018947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000214 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserBlue16.png
-  artifactKey: Guid(22f1ea344246ac242aacfae9fc140690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserBlue16.png using Guid(22f1ea344246ac242aacfae9fc140690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced6f9a7eec0d7d9b9f1e414de73e9a6') in 0.015425 seconds
-  Import took 0.018374 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserBlue01.png
-  artifactKey: Guid(e0c43b0031981c24f9f3e569a895d62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserBlue01.png using Guid(e0c43b0031981c24f9f3e569a895d62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b7c460c4d905e61e44827bd3d64280') in 0.012136 seconds
-  Import took 0.015108 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserBlue06.png
-  artifactKey: Guid(4e67a3a8343052640991e210bb18bfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserBlue06.png using Guid(4e67a3a8343052640991e210bb18bfb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716b48c277f093d9951daf415322a55a') in 0.014396 seconds
-  Import took 0.017254 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserBlue01.png
-  artifactKey: Guid(e0c43b0031981c24f9f3e569a895d62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserBlue01.png using Guid(e0c43b0031981c24f9f3e569a895d62e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36b7c460c4d905e61e44827bd3d64280') in 0.005855 seconds
-  Import took 0.008434 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserRed01.png
-  artifactKey: Guid(27549cd169c811c4aaa348070789daaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserRed01.png using Guid(27549cd169c811c4aaa348070789daaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b3356cbd1174a8fdb4b5258c12ff35') in 0.014212 seconds
-  Import took 0.017330 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserRed04.png
-  artifactKey: Guid(d709b7d4ec98a3a41aeb510e6f4ef0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserRed04.png using Guid(d709b7d4ec98a3a41aeb510e6f4ef0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfb2912e15dae9fdac2c3d9152a7b626') in 0.017033 seconds
-  Import took 0.019993 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserBlue03.png
-  artifactKey: Guid(6dae567361d45a04b858319020574b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserBlue03.png using Guid(6dae567361d45a04b858319020574b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed4ee394e748dd8c4e301b4eee90c5cc') in 0.015413 seconds
-  Import took 0.018209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserBlue02.png
-  artifactKey: Guid(73e05e24ae1a89d45aeae8d5617d7592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserBlue02.png using Guid(73e05e24ae1a89d45aeae8d5617d7592) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af61d88da40bfbc2abf5244792c595ac') in 0.013995 seconds
-  Import took 0.016819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserBlue10.png
-  artifactKey: Guid(c8b7220b8b1fec1478437f4d3847c281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserBlue10.png using Guid(c8b7220b8b1fec1478437f4d3847c281) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c240ce29063d9c2646e8023c78e3082d') in 0.014642 seconds
-  Import took 0.017406 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000189 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserRed15.png
-  artifactKey: Guid(5a28a82105bd77746ab7e8a6213723f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserRed15.png using Guid(5a28a82105bd77746ab7e8a6213723f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0baed90bbcad6c7d4b842f64a12ce8') in 0.015387 seconds
-  Import took 0.018082 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserRed12.png
-  artifactKey: Guid(61b12454e07ed3a4695d6109057e527e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserRed12.png using Guid(61b12454e07ed3a4695d6109057e527e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef6726168f40cba888089df01f5fb1d') in 0.016011 seconds
-  Import took 0.018802 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserGreen09.png
-  artifactKey: Guid(02300291ba71aaf4fb3b9a9e13170fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserGreen09.png using Guid(02300291ba71aaf4fb3b9a9e13170fb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03292cc054fa9c6f6ffb3cff590c3421') in 0.014730 seconds
-  Import took 0.017552 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserGreen14.png
-  artifactKey: Guid(d460789d9e6da5a4095c74b300fb70ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserGreen14.png using Guid(d460789d9e6da5a4095c74b300fb70ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74626e3e8f9347fa6f9f443a3593a570') in 0.015823 seconds
-  Import took 0.018676 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserRed16.png
-  artifactKey: Guid(bbcc7b4a00221dc479665137dc2736b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserRed16.png using Guid(bbcc7b4a00221dc479665137dc2736b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda66968d594668e0b2a1f1ece117816') in 0.014025 seconds
-  Import took 0.017060 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserGreen11.png
-  artifactKey: Guid(1e6b481836811c4499667248d527fc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserGreen11.png using Guid(1e6b481836811c4499667248d527fc24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '132cf1b0bcb250d17d5279356c3c2327') in 0.016634 seconds
-  Import took 0.019601 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserBlue08.png
-  artifactKey: Guid(a94eefdc2d491aa4ab10ace51d594459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserBlue08.png using Guid(a94eefdc2d491aa4ab10ace51d594459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb3112a2063135ace043cd8263f27068') in 0.014159 seconds
-  Import took 0.017028 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserRed05.png
-  artifactKey: Guid(fabde8a251443984fafea42ae629e5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserRed05.png using Guid(fabde8a251443984fafea42ae629e5d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0241e3404c3bfd33db95228fca43b987') in 0.014516 seconds
-  Import took 0.017140 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserGreen15.png
-  artifactKey: Guid(c3c229804d211ec45be2e997f6974684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserGreen15.png using Guid(c3c229804d211ec45be2e997f6974684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd45505eb082f7b242ac412b769621ff') in 0.015194 seconds
-  Import took 0.018335 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserRed02.png
-  artifactKey: Guid(2806ba366796b7541b99ea4ac846d13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserRed02.png using Guid(2806ba366796b7541b99ea4ac846d13e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7427e35be63e65bd8d6686b1d67c6908') in 0.014296 seconds
-  Import took 0.017338 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserGreen07.png
-  artifactKey: Guid(0798499647f4e884fbc0dcd082140868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserGreen07.png using Guid(0798499647f4e884fbc0dcd082140868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6688d4d356255719a4051b9a388ae36') in 0.015349 seconds
-  Import took 0.018413 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserRed13.png
-  artifactKey: Guid(b411599d0cbca4a448782116fbe5a09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserRed13.png using Guid(b411599d0cbca4a448782116fbe5a09d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84b229abd95766ccf5f8abf63ce339b7') in 0.014361 seconds
-  Import took 0.017329 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserRed08.png
-  artifactKey: Guid(7e362de154399cd46adbd8a71186ae6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserRed08.png using Guid(7e362de154399cd46adbd8a71186ae6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09781ad27519a7a7e42499ae8c682db1') in 0.015374 seconds
-  Import took 0.018634 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserRed03.png
-  artifactKey: Guid(2c46bcb9f6a9e4b48af64bf86ddb52fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserRed03.png using Guid(2c46bcb9f6a9e4b48af64bf86ddb52fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51945f12d4989a16cd2c9a55f844e74f') in 0.015153 seconds
-  Import took 0.017695 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000219 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserGreen08.png
-  artifactKey: Guid(63899e88353052443a7c6bd29e42fcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserGreen08.png using Guid(63899e88353052443a7c6bd29e42fcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb3588eb2c072d15292375d73249fb3') in 0.015968 seconds
-  Import took 0.018803 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserBlue07.png
-  artifactKey: Guid(ef7205abf16c8d64285826c81b65734d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserBlue07.png using Guid(ef7205abf16c8d64285826c81b65734d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0c11eb9738ed4dbb3ac5ce83d7161fa') in 0.013544 seconds
-  Import took 0.016587 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/Space Shooter/PNG/Lasers/laserRed10.png
-  artifactKey: Guid(ccf3b5813c37d8d41bb9d69fc08e72f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Space Shooter/PNG/Lasers/laserRed10.png using Guid(ccf3b5813c37d8d41bb9d69fc08e72f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50f563eb4e761ef64cb37a5faf70860b') in 0.014514 seconds
-  Import took 0.018237 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 89.577034 seconds.
-  path: Assets/Scripts/Player.cs
-  artifactKey: Guid(bae26bf3cc29fb64fbf5248f748d3a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player.cs using Guid(bae26bf3cc29fb64fbf5248f748d3a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e270c7eb012db8fa14ce2321573bd530') in 0.015425 seconds
-  Import took 0.018843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011582 seconds.
-  path: Assets/Scripts/Player.cs
-  artifactKey: Guid(bae26bf3cc29fb64fbf5248f748d3a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player.cs using Guid(bae26bf3cc29fb64fbf5248f748d3a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e270c7eb012db8fa14ce2321573bd530') in 0.001664 seconds
-  Import took 0.004977 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 21.892384 seconds.
-  path: Assets/Scripts/Player.cs
-  artifactKey: Guid(bae26bf3cc29fb64fbf5248f748d3a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player.cs using Guid(bae26bf3cc29fb64fbf5248f748d3a68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea413a9d610aa98c6f920434e737794') in 0.001739 seconds
-  Import took 0.005239 seconds .
+  Time since last request: 512.056821 seconds.
+  path: Assets/Scripts/EnemyPath.cs
+  artifactKey: Guid(d866138c28479b3429809659db83c070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyPath.cs using Guid(d866138c28479b3429809659db83c070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f41fcdb5d6deef2e61c09516d596e13') in 0.047994 seconds
+  Import took 0.051634 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001010 seconds.
+Registered in 0.000871 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.936 seconds
+- Completed reload, in  1.081 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.0 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2257.
+Total: 2.327300 ms (FindLiveObjects: 0.339000 ms CreateObjectMapping: 0.064600 ms MarkObjects: 1.810000 ms  DeleteObjects: 0.112100 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000739 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.793 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.41 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 85.1 MB.
+System memory in use after: 85.1 MB.
+
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2261.
+Total: 2.555400 ms (FindLiveObjects: 0.388300 ms CreateObjectMapping: 0.169000 ms MarkObjects: 1.882600 ms  DeleteObjects: 0.113700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 80.940449 seconds.
+  path: Assets/Scripts/EnemyPathing.cs
+  artifactKey: Guid(d866138c28479b3429809659db83c070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyPathing.cs using Guid(d866138c28479b3429809659db83c070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af838b7c82e7fe94ff07c0a83e256e73') in 0.008786 seconds
+  Import took 0.012345 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.192393 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(e04675fe6c3d9c841832355ea5d36956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(e04675fe6c3d9c841832355ea5d36956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6eab26ed9ee81f3c16fcbbedcc6464') in 0.094939 seconds
+  Import took 0.098348 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001041 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.777 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1806 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 88.2 MB.
 System memory in use after: 88.2 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2281.
-Total: 2.166300 ms (FindLiveObjects: 0.201000 ms CreateObjectMapping: 0.043800 ms MarkObjects: 1.804600 ms  DeleteObjects: 0.115200 ms)
+Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2272.
+Total: 2.036400 ms (FindLiveObjects: 0.303000 ms CreateObjectMapping: 0.055200 ms MarkObjects: 1.567800 ms  DeleteObjects: 0.108900 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 43.579913 seconds.
-  path: Assets/Prefabs
-  artifactKey: Guid(ed0af39e24d04fe48b18f0904ffd3b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs using Guid(ed0af39e24d04fe48b18f0904ffd3b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0f1549f89f56552fa9ecd2d2982167') in 0.008131 seconds
-  Import took 0.011926 seconds .
+  Time since last request: 59.196383 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(e04675fe6c3d9c841832355ea5d36956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(e04675fe6c3d9c841832355ea5d36956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8510db07ff1791408186c9e81a2a3b85') in 0.053471 seconds
+  Import took 0.059548 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 2.509660 seconds.
-  path: Assets/Prefabs/Laser.prefab
-  artifactKey: Guid(6859afd13ab7b7342920832cfc9714f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Laser.prefab using Guid(6859afd13ab7b7342920832cfc9714f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303c2a0b5bd80ca979dbdc6fe38cf2f4') in 0.057750 seconds
-  Import took 0.060893 seconds .
+  Time since last request: 90.291271 seconds.
+  path: Assets/Paths/Path (0).prefab
+  artifactKey: Guid(7d1b704bd69a0a24a8674c41bcfb0518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paths/Path (0).prefab using Guid(7d1b704bd69a0a24a8674c41bcfb0518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97bc318ecd88c2bad237b1544f94dd0') in 0.007879 seconds
+  Import took 0.011630 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.006541 seconds.
-  path: Assets/Prefabs/Laser.prefab
-  artifactKey: Guid(6859afd13ab7b7342920832cfc9714f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Laser.prefab using Guid(6859afd13ab7b7342920832cfc9714f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '303c2a0b5bd80ca979dbdc6fe38cf2f4') in 0.008139 seconds
-  Import took 0.011076 seconds .
+  Time since last request: 0.017345 seconds.
+  path: Assets/Paths/Path (0).prefab
+  artifactKey: Guid(7d1b704bd69a0a24a8674c41bcfb0518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paths/Path (0).prefab using Guid(7d1b704bd69a0a24a8674c41bcfb0518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c97bc318ecd88c2bad237b1544f94dd0') in 0.004824 seconds
+  Import took 0.007643 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 35.517382 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(c5703aa966c90824189eae605bdd2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(c5703aa966c90824189eae605bdd2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f4e49b84b6538c682cbf6e8c5e5383') in 0.011610 seconds
-  Import took 0.015195 seconds .
+  Time since last request: 61.097565 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(e04675fe6c3d9c841832355ea5d36956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(e04675fe6c3d9c841832355ea5d36956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14bbb859737c180076577301f79c0e0d') in 0.011707 seconds
+  Import took 0.015475 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.014934 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(c5703aa966c90824189eae605bdd2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(c5703aa966c90824189eae605bdd2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f4e49b84b6538c682cbf6e8c5e5383') in 0.008349 seconds
-  Import took 0.011516 seconds .
+  Time since last request: 37.839515 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(e04675fe6c3d9c841832355ea5d36956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(e04675fe6c3d9c841832355ea5d36956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a20ca8c927934df880d892bec36a8ba') in 0.010703 seconds
+  Import took 0.014661 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.302929 seconds.
-  path: Assets/Prefabs/Laser.prefab
-  artifactKey: Guid(6859afd13ab7b7342920832cfc9714f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Laser.prefab using Guid(6859afd13ab7b7342920832cfc9714f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6531036db15c3e3343109b2a350a892') in 0.008485 seconds
-  Import took 0.011550 seconds .
+  Time since last request: 30.510452 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(e04675fe6c3d9c841832355ea5d36956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(e04675fe6c3d9c841832355ea5d36956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c515831a851b93bb3fdb93d1d296b237') in 0.010560 seconds
+  Import took 0.015903 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.179198 seconds.
-  path: Assets/Prefabs/Main Camera.prefab
-  artifactKey: Guid(a5b7b76f4b8bc8843b4dbf5d80ae35ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Main Camera.prefab using Guid(a5b7b76f4b8bc8843b4dbf5d80ae35ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5090ddfc6c3bff32474a7f18bb4b3b') in 0.007523 seconds
-  Import took 0.010349 seconds .
+  Time since last request: 155.118997 seconds.
+  path: Assets/Paths/Path (0).prefab
+  artifactKey: Guid(7d1b704bd69a0a24a8674c41bcfb0518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paths/Path (0).prefab using Guid(7d1b704bd69a0a24a8674c41bcfb0518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e340365a57f0ee85dc32f6eeca9fc33') in 0.004886 seconds
+  Import took 0.008624 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.011921 seconds.
-  path: Assets/Prefabs/Main Camera.prefab
-  artifactKey: Guid(a5b7b76f4b8bc8843b4dbf5d80ae35ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Main Camera.prefab using Guid(a5b7b76f4b8bc8843b4dbf5d80ae35ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac5090ddfc6c3bff32474a7f18bb4b3b') in 0.003420 seconds
-  Import took 0.006467 seconds .
+  Time since last request: 0.003426 seconds.
+  path: Assets/Paths/Path (0).prefab
+  artifactKey: Guid(7d1b704bd69a0a24a8674c41bcfb0518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Paths/Path (0).prefab using Guid(7d1b704bd69a0a24a8674c41bcfb0518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e340365a57f0ee85dc32f6eeca9fc33') in 0.004292 seconds
+  Import took 0.008428 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1.589233 seconds.
-  path: Assets/Prefabs/Canvas.prefab
-  artifactKey: Guid(ba1acacaeb611db41ad19d1ba30439f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Canvas.prefab using Guid(ba1acacaeb611db41ad19d1ba30439f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d1f0d426c98122be13db181858b309') in 0.009588 seconds
-  Import took 0.012443 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018387 seconds.
-  path: Assets/Prefabs/Canvas.prefab
-  artifactKey: Guid(ba1acacaeb611db41ad19d1ba30439f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Canvas.prefab using Guid(ba1acacaeb611db41ad19d1ba30439f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d1f0d426c98122be13db181858b309') in 0.003145 seconds
-  Import took 0.006978 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.544905 seconds.
-  path: Assets/Prefabs/Blue Background.prefab
-  artifactKey: Guid(1d4b89f0a00c82b4bb7478fe5f65734e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Blue Background.prefab using Guid(1d4b89f0a00c82b4bb7478fe5f65734e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02111a2baaf821a2d6cb5e68a5a549cf') in 0.032556 seconds
-  Import took 0.036087 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000764 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.737 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.5 MB.
-System memory in use after: 88.4 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2290.
-Total: 2.443200 ms (FindLiveObjects: 0.332300 ms CreateObjectMapping: 0.111300 ms MarkObjects: 1.890900 ms  DeleteObjects: 0.107000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.698562 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(c5703aa966c90824189eae605bdd2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(c5703aa966c90824189eae605bdd2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45d263b3cd62c26dc346517011b0a0db') in 0.048036 seconds
-  Import took 0.051460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.154705 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(c5703aa966c90824189eae605bdd2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(c5703aa966c90824189eae605bdd2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd612eb1913bd009698d3990b4cd8e53') in 0.008803 seconds
-  Import took 0.011985 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010299 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(c5703aa966c90824189eae605bdd2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(c5703aa966c90824189eae605bdd2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd612eb1913bd009698d3990b4cd8e53') in 0.008277 seconds
-  Import took 0.011697 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000712 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.736 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.5 MB.
-System memory in use after: 88.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2295.
-Total: 2.434600 ms (FindLiveObjects: 0.335300 ms CreateObjectMapping: 0.108200 ms MarkObjects: 1.881600 ms  DeleteObjects: 0.107500 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 196.743388 seconds.
-  path: Assets/Prefabs/Laser.prefab
-  artifactKey: Guid(6859afd13ab7b7342920832cfc9714f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Laser.prefab using Guid(6859afd13ab7b7342920832cfc9714f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a6249084f1302ad2910c928f8eb2ff') in 0.051852 seconds
-  Import took 0.055411 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000796 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.743 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.5 MB.
-System memory in use after: 88.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2300.
-Total: 2.491900 ms (FindLiveObjects: 0.220500 ms CreateObjectMapping: 0.041100 ms MarkObjects: 2.119700 ms  DeleteObjects: 0.109400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 175.194800 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(c5703aa966c90824189eae605bdd2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(c5703aa966c90824189eae605bdd2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '324fb7d6d5f6af10f6d89b72c62ff290') in 0.049265 seconds
-  Import took 0.053224 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.075327 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(c5703aa966c90824189eae605bdd2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(c5703aa966c90824189eae605bdd2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884a8a2db70c495f3fa2a0697f4f41d5') in 0.007982 seconds
-  Import took 0.010973 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010490 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(c5703aa966c90824189eae605bdd2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(c5703aa966c90824189eae605bdd2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884a8a2db70c495f3fa2a0697f4f41d5') in 0.008801 seconds
-  Import took 0.011872 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.670910 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(c5703aa966c90824189eae605bdd2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(c5703aa966c90824189eae605bdd2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9a0949c978c0363469f81b1787fe75') in 0.008674 seconds
-  Import took 0.011682 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.011605 seconds.
-  path: Assets/Prefabs/Player.prefab
-  artifactKey: Guid(c5703aa966c90824189eae605bdd2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Player.prefab using Guid(c5703aa966c90824189eae605bdd2ce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f9a0949c978c0363469f81b1787fe75') in 0.008155 seconds
-  Import took 0.011360 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000708 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.720 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.5 MB.
-System memory in use after: 88.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2305.
-Total: 2.297300 ms (FindLiveObjects: 0.269600 ms CreateObjectMapping: 0.084200 ms MarkObjects: 1.824800 ms  DeleteObjects: 0.117200 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000728 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.710 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.5 MB.
-System memory in use after: 88.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2309.
-Total: 2.473600 ms (FindLiveObjects: 0.265000 ms CreateObjectMapping: 0.083500 ms MarkObjects: 2.004400 ms  DeleteObjects: 0.119000 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000737 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.723 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.5 MB.
-System memory in use after: 88.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2313.
-Total: 2.541200 ms (FindLiveObjects: 0.317500 ms CreateObjectMapping: 0.082300 ms MarkObjects: 2.025600 ms  DeleteObjects: 0.113600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 65.876426 seconds.
-  path: Assets/Prefabs/Laser.prefab
-  artifactKey: Guid(6859afd13ab7b7342920832cfc9714f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Laser.prefab using Guid(6859afd13ab7b7342920832cfc9714f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e09bcc23e1bad17fa40584d07cd041e9') in 0.046074 seconds
-  Import took 0.049057 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000962 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.771 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.40 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.5 MB.
-System memory in use after: 88.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2318.
-Total: 2.367100 ms (FindLiveObjects: 0.196900 ms CreateObjectMapping: 0.043300 ms MarkObjects: 1.996700 ms  DeleteObjects: 0.128600 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.863685 seconds.
-  path: Assets/Prefabs/Laser.prefab
-  artifactKey: Guid(6859afd13ab7b7342920832cfc9714f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Laser.prefab using Guid(6859afd13ab7b7342920832cfc9714f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ff6e0d792e290b9b05e3054f65dcec8') in 0.048910 seconds
-  Import took 0.052405 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001364 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.735 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.37 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.6 MB.
-System memory in use after: 88.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2323.
-Total: 2.237400 ms (FindLiveObjects: 0.351200 ms CreateObjectMapping: 0.115700 ms MarkObjects: 1.650800 ms  DeleteObjects: 0.118100 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000830 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.715 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.6 MB.
-System memory in use after: 88.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2327.
-Total: 2.884900 ms (FindLiveObjects: 0.354200 ms CreateObjectMapping: 0.111800 ms MarkObjects: 2.297600 ms  DeleteObjects: 0.119300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.000710 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.715 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1804 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 88.6 MB.
-System memory in use after: 88.5 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2331.
-Total: 2.071200 ms (FindLiveObjects: 0.234800 ms CreateObjectMapping: 0.049100 ms MarkObjects: 1.670300 ms  DeleteObjects: 0.115700 ms)
+  Time since last request: 10.705540 seconds.
+  path: Assets/Prefabs/Enemy.prefab
+  artifactKey: Guid(e04675fe6c3d9c841832355ea5d36956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy.prefab using Guid(e04675fe6c3d9c841832355ea5d36956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afb623ec5c9bda30d1d4ddc15c7dcc3') in 0.012428 seconds
+  Import took 0.016597 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
