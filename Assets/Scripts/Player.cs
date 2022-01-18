@@ -4,11 +4,19 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    [Header("Player")]
     [SerializeField] private float moveSpeed;
     [SerializeField] private float padding;
+    [SerializeField] private int health = 100;
+    [SerializeField] private AudioClip deathSound;
+    [SerializeField, Range(0, 1)] private float deathSoundVolume = 0.25f;
+
+    [Header("Projectile")]
     [SerializeField] private GameObject laserPrefab;
     [SerializeField] private float projectileSpeed;
     [SerializeField] private float projectileFiringPeriod;
+    [SerializeField] private AudioClip fireSound;
+    [SerializeField, Range(0, 1)] private float fireSoundVolume;
 
     private Coroutine firingCoroutine;
 
@@ -18,14 +26,11 @@ public class Player : MonoBehaviour
     private float yMin;
     private float yMax;
 
-    // Start is called before the first frame update
     void Start()
     {
         SetUpMoveBoundaries();
     }
 
-
-    // Update is called once per frame
     void Update()
     {
         Move();
@@ -44,12 +49,32 @@ public class Player : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        DamageDealer damageDealer = collision.gameObject.GetComponent<DamageDealer>();
+        if (!damageDealer) { return; }
+        ProcessHit(damageDealer);
+    }
+
+    private void ProcessHit(DamageDealer damageDealer)
+    {
+        health -= damageDealer.GetDamage();
+        damageDealer.Hit();
+        if (health <= 0)
+        {
+            FindObjectOfType<Level>().LoadGameOver();
+            Destroy(gameObject);
+            AudioSource.PlayClipAtPoint(deathSound, transform.position, deathSoundVolume);
+        }
+    }
+
     private IEnumerator FireContinuosly()
     {
         while (true)
         {
         GameObject laser = Instantiate(laserPrefab, transform.position, Quaternion.identity);
         laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, projectileSpeed);
+        AudioSource.PlayClipAtPoint(fireSound, transform.position, fireSoundVolume);
         yield return new WaitForSeconds(projectileFiringPeriod);
         }
     }
@@ -69,5 +94,10 @@ public class Player : MonoBehaviour
         xMax = gameCamera.ViewportToWorldPoint(new Vector3(1, 0, 0)).x - padding;
         yMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).y + padding;
         yMax = gameCamera.ViewportToWorldPoint(new Vector3(0, 1, 0)).y - padding;
+    }
+
+    public int GetHealth()
+    {
+        return health;
     }
 }

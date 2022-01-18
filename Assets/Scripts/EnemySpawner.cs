@@ -6,26 +6,39 @@ using UnityEngine;
 public class EnemySpawner : MonoBehaviour
 {
     [SerializeField] private List<WaveConfig> waveConfigs;
+    [SerializeField] private bool looping = false;
     private int startingWave = 0;
-    void Start()
+
+    private IEnumerator Start()
     {
-        var currentWave = waveConfigs[startingWave];
-        StartCoroutine(SpawnAllEnemiesInWave(currentWave));
+        do
+        {
+            yield return StartCoroutine(SpawnAllWaves());
+        } while (looping);
     }
 
-    private IEnumerator SpawnAllEnemiesInWave(WaveConfig currentWave)
+    private IEnumerator SpawnAllWaves()
     {
-        for (int enemyCount = 0; enemyCount <= currentWave.GetNumberOfEnemies(); enemyCount++)
+        for (int waveIndex = startingWave; waveIndex < waveConfigs.Count; waveIndex++)
         {
-        Instantiate(
-            currentWave.GetEnemyPrefab(), 
-            currentWave.GetWayPoints()[enemyCount].transform.position, 
-            Quaternion.identity);
-        yield return new WaitForSeconds(currentWave.GetTimeBetweenSpawn());
+            var currentWave = waveConfigs[waveIndex];
+            yield return StartCoroutine(SpawnAllEnemiesInWave(currentWave));
         }
     }
 
-    // Update is called once per frame
+    private IEnumerator SpawnAllEnemiesInWave(WaveConfig waveConfig)
+    {
+        for (int enemyCount = 0; enemyCount <= waveConfig.GetNumberOfEnemies(); enemyCount++)
+        {
+        var newEnemy = Instantiate(
+            waveConfig.GetEnemyPrefab(), 
+            waveConfig.GetWayPoints()[enemyCount].transform.position, 
+            Quaternion.identity);
+            newEnemy.GetComponent<EnemyPathing>().SetWaveConfig(waveConfig);
+        yield return new WaitForSeconds(waveConfig.GetTimeBetweenSpawn());
+        }
+    }
+
     void Update()
     {
         
